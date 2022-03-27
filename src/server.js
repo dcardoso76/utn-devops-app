@@ -27,5 +27,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:8080`);
+console.log(`Running on http://${HOST}:${PORT}`);
 
